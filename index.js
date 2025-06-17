@@ -1,10 +1,11 @@
 const userInputYear = prompt('input your year of birth');
 const userInputTown = prompt('input your town');
 const userInputSport = prompt('input your sport details');
+let yearOutput = 'nothing entered';
+let townOutput = 'nothing entered';
 
 debugger
 if (!userInputYear?.trim()){
-    let yearOutput = 'nothing entered'
     console.log(yearOutput);
 }
 
@@ -22,7 +23,6 @@ else {
 }
 
 if (!userInputTown?.trim()){
-    let townOutput = 'nothing entered'
     console.log(townOutput);
 }
 
